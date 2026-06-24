@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Shivona | Fullstack Developer – Cloud & AI</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- EmailJS SDK - ADDED -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+  <main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Daniel Shivona" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Daniel Shivona">Daniel Shivona</h1>
+          <p class="title">Fullstack Developer | Cloud & AI</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:shivonadaniel5@gmail.com" class="contact-link">shivonadaniel5@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+254790682329" class="contact-link">+254 790 682 329</a>
+              <span style="display:block; font-size:12px;">+254 742 476 821</span>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1996-05-02">June 15, 1995</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Nairobi, Kenya</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item"><a href="https://github.com/git-danny" target="_blank" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li class="social-item"><a href="https://www.linkedin.com/in/daniel-shivona-ba421b248" target="_blank" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
+        <section class="about-text">
+          <p>I'm a Fullstack Developer based in Nairobi, Kenya, with a strong foundation in both hardware (Diploma in Electrical & Communication Engineering) and software (BSc Computer Science, ALX Software Engineering). I specialise in cloud infrastructure (AWS, Azure, GCP) and AI integration.</p>
+          <p>I build scalable backend systems using Python (Django, Flask) and Java (Spring Boot), paired with modern frontends in Vue.js. From blockchain banking prototypes to M‑Pesa‑powered sales systems and LLM‑enhanced applications, I turn complex ideas into robust solutions.</p>
+        </section>
+
+        <!-- What I do -->
+        <section class="service">
+          <h3 class="h3 service-title">What I do</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-dev.svg" alt="backend" width="40"></div>
+              <div class="service-content-box"><h4 class="h4 service-item-title">Backend & APIs</h4><p class="service-item-text">Python (Django, Flask), Java (Spring Boot), REST, GraphQL.</p></div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-design.svg" alt="frontend" width="40"></div>
+              <div class="service-content-box"><h4 class="h4 service-item-title">Frontend (Vue.js)</h4><p class="service-item-text">Reactive dashboards, PWA, component‑driven architecture.</p></div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-app.svg" alt="cloud" width="40"></div>
+              <div class="service-content-box"><h4 class="h4 service-item-title">Cloud (AWS/Azure/GCP)</h4><p class="service-item-text">Compute, serverless, storage, and cloud databases.</p></div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-photo.svg" alt="ai" width="40"></div>
+              <div class="service-content-box"><h4 class="h4 service-item-title">AI & LLMs</h4><p class="service-item-text">OpenAI API, LangChain, scikit‑learn – chatbots, predictions, NLP.</p></div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">What clients say</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item"><div class="content-card" data-testimonials-item><figure class="testimonials-avatar-box"><img src="./assets/images/avatar-1.png" alt="Client" width="60" data-testimonials-avatar></figure><h4 class="h4 testimonials-item-title" data-testimonials-title>James Mwangi</h4><div class="testimonials-text" data-testimonials-text><p>Daniel built a sales management system with M‑Pesa integration – robust and scalable. His cloud deployment on AWS made it reliable.</p></div></div></li>
+            <li class="testimonials-item"><div class="content-card" data-testimonials-item><figure class="testimonials-avatar-box"><img src="./assets/images/avatar-2.png" alt="Client" width="60" data-testimonials-avatar></figure><h4 class="h4 testimonials-item-title" data-testimonials-title>Grace Atieno</h4><div class="testimonials-text" data-testimonials-text><p>The Vue.js product management system is a joy to use. Daniel also added an AI‑powered product recommendation engine – brilliant!</p></div></div></li>
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container><div class="overlay" data-overlay></div><section class="testimonials-modal"><button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button><div class="modal-img-wrapper"><figure class="modal-avatar-box"><img src="./assets/images/avatar-1.png" alt="Client" width="80" data-modal-img></figure><img src="./assets/images/icon-quote.svg" alt="quote icon"></div><div class="modal-content"><h4 class="h3 modal-title" data-modal-title>James Mwangi</h4><time datetime="2023-11-10">10 November, 2023</time><div data-modal-text><p>Daniel built a sales management system with M‑Pesa integration – robust and scalable. His cloud deployment on AWS made it reliable.</p></div></div></section></div>
+
+        <!-- Tech Stack / Cloud & AI -->
+        <section class="clients">
+          <h3 class="h3 clients-title">Cloud & AI Stack</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item"><img src="./assets/images/logo-1-color.png" alt="AWS"></li>
+            <li class="clients-item"><img src="./assets/images/logo-2-color.png" alt="Azure"></li>
+            <li class="clients-item"><img src="./assets/images/logo-3-color.png" alt="GCP"></li>
+            <li class="clients-item"><img src="./assets/images/logo-4-color.png" alt="OpenAI"></li>
+            <li class="clients-item"><img src="./assets/images/logo-5-color.png" alt="LangChain"></li>
+            <li class="clients-item"><img src="./assets/images/logo-6-color.png" alt="scikit-learn"></li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Resume</h2></header>
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="book-outline"></ion-icon></div><h3 class="h3">Education</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BSc. Computer Science</h4>
+              <span>2024 – Present </span>
+              <p class="timeline-text">University of the People (UoPeople) – Focus on software engineering, algorithms, and data structures.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineering Certificate</h4>
+              <span>2023-2024</span>
+              <p class="timeline-text">ALX Bootcamp – Intensive fullstack development, DevOps, and professional collaboration.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Diploma in Electrical & Communication Engineering</h4>
+              <span>2019 – 2022</span>
+              <p class="timeline-text">Ramogi Institute – Hardware fundamentals, embedded systems, and network communication.</p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper"><div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div><h3 class="h3">Experience</h3></div>
+          <ol class="timeline-list">
+            <li class="timeline-item"><h4 class="h4 timeline-item-title">Freelance Fullstack Developer</h4><span>2020 – Present</span><p class="timeline-text">Cloud‑native apps (AWS Lambda, Azure Functions), AI‑enhanced features (LLM chat, sales predictions).</p></li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">Core Competencies</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Python / Django / Flask</h5><data value="90">90%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Java / Spring Boot</h5><data value="85">85%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 85%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Cloud (AWS/Azure/GCP)</h5><data value="80">80%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 80%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">AI / LLM Integration</h5><data value="75">75%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 75%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Vue.js</h5><data value="85">85%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 85%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">PostgreSQL</h5><data value="88">88%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 88%;"></div></div></li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header><h2 class="h2 article-title">Portfolio</h2></header>
+        <section class="projects">
+          <ul class="filter-list"><li class="filter-item"><button class="active" data-filter-btn>All</button></li><li class="filter-item"><button data-filter-btn>Backend</button></li><li class="filter-item"><button data-filter-btn>Fullstack</button></li><li class="filter-item"><button data-filter-btn>Frontend</button></li></ul>
+          <div class="filter-select-box"><button class="filter-select" data-select><div class="select-value" data-selecct-value>Select category</div><div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div></button><ul class="select-list"><li class="select-item"><button data-select-item>All</button></li><li class="select-item"><button data-select-item>Backend</button></li><li class="select-item"><button data-select-item>Fullstack</button></li><li class="select-item"><button data-select-item>Frontend</button></li></ul></div>
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="fullstack"><a href="https://github.com/git-danny" target="_blank"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-1.jpg" alt="Java Blockchain Banking" loading="lazy"></figure><h3 class="project-title">Java Blockchain Banking</h3><p class="project-category">Fullstack + Cloud (AWS)</p></a></li>
+            <li class="project-item active" data-filter-item data-category="fullstack"><a href="https://github.com/git-danny" target="_blank"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-2.png" alt="Sales Management Mpesa" loading="lazy"></figure><h3 class="project-title">Sales Management + M‑Pesa</h3><p class="project-category">Fullstack + AI predictions</p></a></li>
+            <li class="project-item active" data-filter-item data-category="frontend"><a href="https://github.com/git-danny" target="_blank"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-3.jpg" alt="Product Management Vue" loading="lazy"></figure><h3 class="project-title">Product Management System</h3><p class="project-category">Vue.js + OpenAI recommendations</p></a></li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- BLOG -->
+      <article class="blog" data-page="blog">
+        <header><h2 class="h2 article-title">GitHub Highlights</h2></header>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item"><a href="https://github.com/git-danny" target="_blank"><figure class="blog-banner-box"><img src="./assets/images/blog-1.jpg" alt="AI Chatbot" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">LLM / OpenAI</p><span class="dot"></span><time datetime="2024-02-10">Feb 10, 2024</time></div><h3 class="h3 blog-item-title">Customer Support Chatbot (LangChain)</h3><p class="blog-text">Integrated OpenAI API with a Vue.js frontend – deployed on Azure.</p></div></a></li>
+            <li class="blog-post-item"><a href="https://github.com/git-danny" target="_blank"><figure class="blog-banner-box"><img src="./assets/images/blog-2.jpg" alt="Serverless API" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">AWS Lambda</p><span class="dot"></span><time datetime="2023-12-01">Dec 1, 2023</time></div><h3 class="h3 blog-item-title">Serverless M‑Pesa Webhook</h3><p class="blog-text">AWS API Gateway + Lambda + DynamoDB for M‑Pesa transactions.</p></div></a></li>
+            <li class="blog-post-item"><a href="https://github.com/git-danny" target="_blank"><figure class="blog-banner-box"><img src="./assets/images/blog-3.jpg" alt="Sales Forecast" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">scikit-learn</p><span class="dot"></span><time datetime="2023-10-15">Oct 15, 2023</time></div><h3 class="h3 blog-item-title">Sales Forecasting Module</h3><p class="blog-text">Predictive model for inventory planning – integrated into Django admin.</p></div></a></li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- CONTACT - UPDATED WITH EMAILJS -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.3581375003!2d36.68277494930355!3d-1.302713931238882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1647608789441!5m2!1sen!2ske" width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          
+          <!-- UPDATED: Added proper name attributes for EmailJS -->
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+          
+          <!-- Status message will be inserted here by JavaScript -->
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
