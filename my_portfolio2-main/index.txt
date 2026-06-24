@@ -1,0 +1,188 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Daniel Shivona
+Daniel Shivona
+Fullstack Developer | Cloud & AI
+
+Show Contacts
+
+Email
+shivonadaniel5@gmail.com
+
+Phone
++254 790 682 329
++254 742 476 821
+
+Birthday
+June 15, 1995
+
+Location
+Nairobi, Kenya
+
+# navbar
+
+About
+Resume
+Portfolio
+Blog
+Contact
+
+# about
+
+About me
+
+I'm a Fullstack Developer based in Nairobi, Kenya, with a strong foundation in both hardware (Diploma in Electrical & Communication Engineering) and software (BSc Computer Science, ALX Software Engineering). I specialise in cloud infrastructure (AWS, Azure, GCP) and AI integration.
+
+I build scalable backend systems using Python (Django, Flask) and Java (Spring Boot), paired with modern frontends in Vue.js. From blockchain banking prototypes to M‑Pesa‑powered sales systems and LLM‑enhanced applications, I turn complex ideas into robust solutions.
+
+
+## service
+
+What I do
+
+alt = backend icon
+Backend & APIs
+Python (Django, Flask), Java (Spring Boot), REST, GraphQL.
+
+alt = frontend icon
+Frontend (Vue.js)
+Reactive dashboards, PWA, component‑driven architecture.
+
+alt = cloud icon
+Cloud (AWS/Azure/GCP)
+Compute, serverless, storage, and cloud databases.
+
+alt = ai icon
+AI & LLMs
+OpenAI API, LangChain, scikit‑learn – chatbots, predictions, NLP.
+
+
+## testimonials
+
+What clients say
+
+alt = James Mwangi
+James Mwangi
+Daniel built a sales management system with M‑Pesa integration – robust and scalable. His cloud deployment on AWS made it reliable.
+
+alt = Grace Atieno
+Grace Atieno
+The Vue.js product management system is a joy to use. Daniel also added an AI‑powered product recommendation engine – brilliant!
+
+
+## clients (Tech Stack)
+
+Cloud & AI Stack
+
+alt = AWS
+alt = Azure
+alt = GCP
+alt = OpenAI
+alt = LangChain
+alt = scikit-learn
+
+
+# resume
+
+Resume
+
+Education
+
+BSc. Computer Science
+2020 – 2024
+University of the People (UoPeople) – Focus on software engineering, algorithms, and data structures.
+
+Software Engineering Certificate
+2023
+ALX Bootcamp – Intensive fullstack development, DevOps, and professional collaboration.
+
+Diploma in Electrical & Communication Engineering
+2015 – 2017
+Ramogi Institute – Hardware fundamentals, embedded systems, and network communication.
+
+Experience
+
+Freelance Fullstack Developer
+2020 – Present
+Cloud‑native apps (AWS Lambda, Azure Functions), AI‑enhanced features (LLM chat, sales predictions).
+
+My skills
+
+Python / Django / Flask
+90%
+Java / Spring Boot
+85%
+Cloud (AWS/Azure/GCP)
+80%
+AI / LLM Integration
+75%
+Vue.js
+85%
+PostgreSQL
+88%
+
+
+# portfolio
+
+Portfolio
+
+All
+Backend
+Fullstack
+Frontend
+
+Select category
+All
+Backend
+Fullstack
+Frontend
+
+alt = Java Blockchain Banking
+Java Blockchain Banking
+Fullstack + Cloud (AWS)
+
+alt = Sales Management Mpesa
+Sales Management + M‑Pesa
+Fullstack + AI predictions
+
+alt = Product Management Vue
+Product Management System
+Vue.js + OpenAI recommendations
+
+
+# blog (GitHub Highlights)
+
+GitHub Highlights
+
+alt = AI Chatbot
+LLM / OpenAI
+Feb 10, 2024
+Customer Support Chatbot (LangChain)
+Integrated OpenAI API with a Vue.js frontend – deployed on Azure.
+
+alt = Serverless API
+AWS Lambda
+Dec 1, 2023
+Serverless M‑Pesa Webhook
+AWS API Gateway + Lambda + DynamoDB for M‑Pesa transactions.
+
+alt = Sales Forecast
+scikit-learn
+Oct 15, 2023
+Sales Forecasting Module
+Predictive model for inventory planning – integrated into Django admin.
+
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
